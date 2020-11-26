@@ -22,3 +22,9 @@ body{
 .navbar-dark{
     background-color: #512DA8;
 }
+.na-bar{
+    margin-left: 50px;
+}
+.icon-space{
+    padding: 0px 2px 0px 0px;
+}
