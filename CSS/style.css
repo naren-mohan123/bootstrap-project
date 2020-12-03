@@ -31,3 +31,9 @@ body{
 .table-content{
     margin-bottom: 100px;
 }
+.head-H3{
+    background-color: rgba(231, 216, 13, 0.904);
+}
+.label-content{
+    padding-left: 7px;;
+}

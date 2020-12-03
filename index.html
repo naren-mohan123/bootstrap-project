@@ -39,8 +39,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a class="btn btn-warning btn-lg btn-block mt-1" href="#revform">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -55,13 +58,13 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uttappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
-                        <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger ml-2">HOT</span><span class="badge badge-pill badges-secondary">$100</span></h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <hr>
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
@@ -69,14 +72,15 @@
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
                     <div class="media-body">
-                        <h2 class="mt-3">Weekend Grand Buffet</h2>
-                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                        <h2 class="mt-3">Weekend Grand Buffet<span class="badge badge-danger ml-2">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
-                
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
+        <hr>
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -88,8 +92,62 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-5 col-12 offset-sm-2 col-sm-8 id="revform"">
+            <div class="card ">
+                <h3 class="card-header  text-white head-H3">Reserve A Table</h3>
+                <div class="card-body">
+                    <form >
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Number of Guests</label>
+                            <div class="col-12 col-sm-10">
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input " name="guests" id="guest1">
+                                    <label class="col-form-label label-content" for="guest1">1</label>
+                                </div>
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input " name="guests" id="guest2">
+                                    <label class="col-form-label label-content" for="guest2">2</label>
+                                </div>
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input " name="guests" id="guest3">
+                                    <label class="col-form-label label-content" for="guest3">3</label>
+                                </div>
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input " name="guests" id="guest4">
+                                    <label class="col-form-label label-content" for="guest4">4</label>
+                                </div>
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input " name="guests" id="guest5">
+                                    <label class="col-form-label label-content" for="guest5">5</label>
+                                </div>
+                                <div class=" form-check form-check-inline">  
+                                    <input type="radio" class="form-radio-input  " name="guests" id="guest6">
+                                    <label class="col-form-label label-content" for="guest6">6</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="telnum" class=" col-12 col-sm-2 col-form-label">Date and Time</label>
+                            <div class=" col-12 col-sm-3">
+                                <input type="tel" class="form-control" name="areacode" id="telnum" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-sm-7" >
+                                <input type="tel" class="form-control" name="telnum" id="telnum" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-2 offset-sm-2">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                    </form>     
                 </div>
             </div>
         </div>
@@ -111,7 +169,7 @@
                     <h5>Our Address</h5>
                     <address>
 		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
+		              Clear Water4 Bay, Kowloon<br>
 		              HONG KONG<br>
 		              <span class="fa fa-phone"></span> +852 1234 5678<br>
 		              <span class="fa fa-fax "></span>Fax: +852 8765 4321<br>
